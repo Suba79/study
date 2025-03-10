@@ -1116,16 +1116,16 @@
 # else:
 #     print('Цифр нет')
 
-# s = input()
-# plus = 0
-# count = 0
+s = input()
+plus = 0
+count = 0
 
-# for char in s:  # Перебираем каждый символ строки
-#     if char == "+":
-#         plus += 1
-#     if char == "*":
-#         count += 1
+for char in s:  # Перебираем каждый символ строки
+    if char == "+":
+        plus += 1
+    if char == "*":
+        count += 1
 
-# print("Символ", '+', "встречается", plus, "раз")
-# print("Символ", '*', "встречается", count, "раз")
+print("Символ", '+', "встречается", plus, "раз")
+print("Символ", '*', "встречается", count, "раз")
 
